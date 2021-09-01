@@ -1,0 +1,86 @@
+.modal {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100vw;
+    height: 100vh;
+    background-color: rgba(0, 0, 0, 0.8);
+    cursor: pointer;
+    z-index: 999;
+
+}
+
+.modal-container {
+    position: absolute;
+    top: 35%;
+    left: 50%;
+    transform: translate(-50%, -25%);
+    background-color: white;
+    cursor: default;
+    border-radius: 10px;
+    padding: 2rem;
+    max-width: 50ch;
+    box-shadow: 0 3px 6px rgba(240, 237, 237, 0.16), 0 3px 6px rgba(243, 100, 100, 0.23);
+}
+
+form input {
+    margin: 0;
+}
+
+.modal-content {
+    padding: 0.2rem;
+}
+
+.edit-title {
+    position: absolute;
+    top: 10px;
+    left: 15px;
+    font-size: 1.5rem;
+    font-weight: bold;
+    width: 100%;
+    color: rgb(37, 37, 37);
+    font-weight: bold;
+    text-transform: uppercase;
+}
+
+.edit-input {
+    background: transparent;
+    width: 90%;
+    right: 20%;
+    padding: 20px;
+    padding-bottom: 0;
+    font-size: 30px;
+}
+
+.close-btn {
+    position: absolute;
+    cursor: pointer;
+    top: 5px;
+    left: 92%;
+    border: none;
+    font-weight: bold;
+    background: transparent;
+    color: red;
+}
+
+.check-btn {
+    position: absolute;
+    cursor: pointer;
+    left: 92%;
+    outline: none;
+    background: transparent;
+    bottom: 0;
+}
+
+.check-btn {
+    color: orangered;
+}
+
+.check-btn:active,
+.check-btn:hover {
+    color: green;
+}
+
+.close-btn:hover {
+    color: green;
+}

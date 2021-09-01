@@ -1,0 +1,41 @@
+form {
+    position: relative;
+}
+
+form input,
+form button {
+    padding: 0.5rem;
+    font-size: 2rem;
+    border: none;
+    outline: none;
+    border-radius: 3px;
+    color: rgb(27, 27, 27);
+}
+
+form input {
+    border-bottom: 1px solid rgb(175, 175, 175);
+    margin-left: 30px;
+}
+
+form input:focus {
+    outline: none;
+    border-bottom: 1px solid rgb(255, 118, 68);
+}
+
+form input::placeholder {
+    padding-left: 20px;
+}
+
+form button {
+    position: absolute;
+    right: 400px;
+    cursor: pointer;
+    font-weight: bold;
+    margin-left: 10px;
+}
+
+form button:hover {
+    color: rgb(255, 118, 68);
+    font-size: 2.6rem;
+    font-weight: normal;
+}

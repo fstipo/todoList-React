@@ -1,0 +1,43 @@
+.todoList-item {
+    display: flex;
+    justify-content: space-between;
+    padding: 1rem 1rem 0rem 1rem;
+    color: rgb(27, 27, 27);
+    font-size: 1.5rem;
+    align-items: center;
+    margin-bottom: 12px;
+    border-bottom: 1px solid rgb(175, 175, 175);
+    border-radius: 5px;
+}
+
+.todoList-check {
+    left: 40px;
+    cursor: pointer;
+}
+
+.todoList-text {
+    padding-left: 10px;
+    padding-right: 10px;
+    min-width: 300px;
+    font-size: 24px;
+}
+
+.todo-edit button,
+.todo-delete button {
+    border: none;
+    padding: 1px;
+    cursor: pointer;
+}
+
+.todo-edit button:hover {
+    color: seagreen;
+}
+
+.todo-delete button:hover {
+    color: rgb(235, 78, 78);
+}
+
+.line-through {
+    text-decoration: line-through;
+    opacity: 0.4;
+}

@@ -1,0 +1,14 @@
+.todo-filter button {
+    padding: 0.1rem 0.4rem;
+    font-family: 'Rampart One', cursive;
+    font-size: 1.5rem;
+    font-weight: bold;
+    justify-content: space-between;
+    border: none;
+    cursor: pointer;
+}
+
+.todo-filter button:hover,
+.active {
+    color: rgb(255, 118, 68);
+}
